@@ -1,8 +1,8 @@
 import React from 'react';
-import Circulo from './Components/Circulo';
+import Glosario from './Components/Glosario';
 function App() {
   return (
-        <div><Circulo/></div>
+        <div><Glosario/></div>
   );
 }
 

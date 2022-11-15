@@ -7,3 +7,10 @@ text-align: center;
 color: palevioletred;
 `;
 
+
+export const Circle = styled.button `
+height: 25px;
+width: 25px;
+background-color: ${props => props.inputColor || "palevioletred"}
+border-radius: 50%;
+display: inline-block`;
